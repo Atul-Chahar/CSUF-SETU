@@ -1,0 +1,39 @@
+# Datasets — downloaded by script, never committed
+data/rdd2022/
+data/idd/
+data/roboflow/
+*.mp4
+*.avi
+*.mov
+
+# Model weights and training runs
+*.pt
+*.onnx
+*.tflite
+*.h5
+runs/
+weights/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Android
+app/build/
+.gradle/
+local.properties
+*.apk
+
+# Node
+node_modules/
+.next/
+
+# Environment and secrets
+.env
+.env.local
+
+# OS
+.DS_Store
